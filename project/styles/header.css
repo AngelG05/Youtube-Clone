@@ -1,0 +1,198 @@
+.header {
+  height: 65px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(207, 203, 203);
+  z-index: 40;
+}
+.left{
+  display: flex;
+  align-items: center;
+  width: 195px;
+  margin-left: 20px;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  flex: 1;
+  margin-right: 45px;
+  max-width: 640px;
+}
+.right {
+  margin-left: 20px;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.icon1 {
+  height: 24px;
+  cursor: pointer;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+.icon2 {
+  margin-left: 18px;
+  height: 20px;
+}
+.Searchbox {
+  border-radius: 20px 0px 0px 20px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+  padding-left: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(211, 209, 209);
+  display: flex;
+  flex: 1;
+  box-shadow: inset 0.05px 0.05px 5px rgb(201, 198, 198, 0.4);
+  width: 0px;
+}
+::placeholder {
+  font-size: 15px;
+  color: rgb(168, 165, 165);
+}
+.icon3 {
+  height: 23px;
+}
+.icon4 {
+  height: 23px;
+}
+.i3 {
+  display: flex;
+  position: relative;
+  border-radius: 0px 20px 20px 0px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  border-color: rgb(211, 209, 209);
+  border-style: solid;
+  border-width: 1px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(247, 247, 247);
+  cursor: pointer;
+  justify-content: center;
+}
+.i3 .tooltip, 
+.i4 .tooltip,
+.i5 .tooltip, 
+.i6 .tooltip,
+.notification .tooltip {
+  position: absolute;
+  background-color: rgba(46, 45, 45, 0.75);
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  bottom: -45px;
+  transition: opacity 0.2s;
+  opacity: 0;
+  white-space: nowrap;
+}
+.i3:hover .tooltip,
+.i4:hover .tooltip {
+  opacity: 1;
+}
+.i4 {
+  display: flex;
+  position: relative;
+  margin-left: 15px;
+  border-color: rgb(197, 193, 193);
+  border-radius: 100px;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  padding-right: 8px;
+  padding-left: 8px;
+  cursor: pointer;
+  justify-content: center;
+}
+.i5,
+.i6 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.notification:hover .tooltip {
+  opacity: 1;
+}
+.icon5, .icon6, .icon7 {
+  position: relative;
+  height: 27px;
+  margin-right: 5px;
+  cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.icon5:hover,
+.icon6:hover,
+.icon7:hover {
+  border-radius: 20px;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: rgb(216, 215, 215);
+}
+.i5:hover .tooltip,
+.i6:hover .tooltip {
+  opacity: 1;
+}
+.three-line:hover {
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(216, 215, 215);
+}
+.icon8 {
+  border-radius: 30px;
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.b {
+  border: none;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom : 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+.notification {
+  position: relative;
+}
+.num {
+  position: absolute;
+  top:4px;
+  right: 11px;
+  background-color: red;
+  color: white;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 30px;
+  font-size: 13px;
+}
