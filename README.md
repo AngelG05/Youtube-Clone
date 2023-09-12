@@ -1,2 +1,2 @@
 # cloneYoutube
-Author: Angel
+Author: Angel Gupta
